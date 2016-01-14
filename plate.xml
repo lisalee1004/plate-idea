@@ -22,6 +22,7 @@
 	<clippings>
 		<text name="site_name" name_friendly="Site Name" required="1"><![CDATA[IDEA]]></text>
 		<text name="sales_phone" name_friendly="Sales Phone" required="1"><![CDATA[555-5555]]></text>
+		<text name="facebook_link" name_friendly="Facebook Link" required="1"><![CDATA[https://www.facebook.com/]]></text>
 		<images name="logo" name_friendly="Site Logo" limit="1"></images>
 		<text name="footer_text" name_friendly="Footer Text"><![CDATA[Made with love by i.d.e.a.]]></text>
 	</clippings>
