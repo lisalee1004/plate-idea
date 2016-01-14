@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone='yes'?>
+<plate>
+	<ingredients>
+		<templateset name="homepage" name_friendly="Homepage" view="homepage">
+			<fields>
+				<text name="title" name_friendly="Lead in Title" required="1" />
+				<text name="subtitle" name_friendly="Sub Title" required="1" />
+				<wysiwyg_advanced name="content" name_friendly="Intro Text" />
+			</fields>
+
+			<items>
+				<item link_title="Homepage" path_part="zesty_home">
+					<title><![CDATA[IDEA HTML Template]]></title>
+					<subtitle><![CDATA[Template Design by Dev Team]]></subtitle>
+					<content><![CDATA[<p>MUI is a lightweight CSS framework that follows Google's Material Design guidelines</p>]]></content>
+				</item>
+			</items>
+		</templateset>
+	</ingredients>
+
+	<!-- clippings -->
+	<clippings>
+		<text name="site_name" name_friendly="Site Name" required="1"><![CDATA[IDEA]]></text>
+		<text name="sales_phone" name_friendly="Sales Phone" required="1"><![CDATA[555-5555]]></text>
+		<images name="logo" name_friendly="Site Logo" limit="1"></images>
+		<text name="footer_text" name_friendly="Footer Text"><![CDATA[Made with love by i.d.e.a.]]></text>
+	</clippings>
+
+	<!-- head files -->
+	<head>
+		<doctype>html5</doctype>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<!-- load MUI -->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>	
+		<!-- load icon font -->
+		<link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+	</head>
+
+</plate>
